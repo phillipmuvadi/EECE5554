@@ -1,0 +1,39 @@
+[0.385s] Invoking command in '/home/phillip/EECE5554/LAB0/src/pubsub': PYTHONPATH=/home/phillip/EECE5554/LAB0/build/pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phillip/EECE5554/LAB0/install/pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/phillip/EECE5554/LAB0/build/pubsub/build install --record /home/phillip/EECE5554/LAB0/build/pubsub/install.log --single-version-externally-managed install_data
+[0.504s] running egg_info
+[0.504s] creating ../../build/pubsub/pubsub.egg-info
+[0.504s] writing ../../build/pubsub/pubsub.egg-info/PKG-INFO
+[0.504s] writing dependency_links to ../../build/pubsub/pubsub.egg-info/dependency_links.txt
+[0.504s] writing entry points to ../../build/pubsub/pubsub.egg-info/entry_points.txt
+[0.504s] writing requirements to ../../build/pubsub/pubsub.egg-info/requires.txt
+[0.504s] writing top-level names to ../../build/pubsub/pubsub.egg-info/top_level.txt
+[0.504s] writing manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[0.505s] reading manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[0.505s] writing manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[0.505s] running build
+[0.505s] running build_py
+[0.505s] creating /home/phillip/EECE5554/LAB0/build/pubsub/build
+[0.506s] creating /home/phillip/EECE5554/LAB0/build/pubsub/build/lib
+[0.506s] creating /home/phillip/EECE5554/LAB0/build/pubsub/build/lib/pubsub
+[0.506s] copying pubsub/talker.py -> /home/phillip/EECE5554/LAB0/build/pubsub/build/lib/pubsub
+[0.506s] copying pubsub/listener.py -> /home/phillip/EECE5554/LAB0/build/pubsub/build/lib/pubsub
+[0.506s] copying pubsub/__init__.py -> /home/phillip/EECE5554/LAB0/build/pubsub/build/lib/pubsub
+[0.506s] running install
+[0.506s] running install_lib
+[0.506s] creating /home/phillip/EECE5554/LAB0/install/pubsub/lib/python3.10/site-packages/pubsub
+[0.506s] copying /home/phillip/EECE5554/LAB0/build/pubsub/build/lib/pubsub/talker.py -> /home/phillip/EECE5554/LAB0/install/pubsub/lib/python3.10/site-packages/pubsub
+[0.506s] copying /home/phillip/EECE5554/LAB0/build/pubsub/build/lib/pubsub/listener.py -> /home/phillip/EECE5554/LAB0/install/pubsub/lib/python3.10/site-packages/pubsub
+[0.506s] copying /home/phillip/EECE5554/LAB0/build/pubsub/build/lib/pubsub/__init__.py -> /home/phillip/EECE5554/LAB0/install/pubsub/lib/python3.10/site-packages/pubsub
+[0.506s] byte-compiling /home/phillip/EECE5554/LAB0/install/pubsub/lib/python3.10/site-packages/pubsub/talker.py to talker.cpython-310.pyc
+[0.507s] byte-compiling /home/phillip/EECE5554/LAB0/install/pubsub/lib/python3.10/site-packages/pubsub/listener.py to listener.cpython-310.pyc
+[0.507s] byte-compiling /home/phillip/EECE5554/LAB0/install/pubsub/lib/python3.10/site-packages/pubsub/__init__.py to __init__.cpython-310.pyc
+[0.507s] running install_data
+[0.507s] creating /home/phillip/EECE5554/LAB0/install/pubsub/share/ament_index
+[0.507s] creating /home/phillip/EECE5554/LAB0/install/pubsub/share/ament_index/resource_index
+[0.507s] creating /home/phillip/EECE5554/LAB0/install/pubsub/share/ament_index/resource_index/packages
+[0.507s] copying resource/pubsub -> /home/phillip/EECE5554/LAB0/install/pubsub/share/ament_index/resource_index/packages
+[0.507s] copying package.xml -> /home/phillip/EECE5554/LAB0/install/pubsub/share/pubsub
+[0.507s] running install_egg_info
+[0.508s] Copying ../../build/pubsub/pubsub.egg-info to /home/phillip/EECE5554/LAB0/install/pubsub/lib/python3.10/site-packages/pubsub-0.0.0-py3.10.egg-info
+[0.508s] running install_scripts
+[0.519s] writing list of installed files to '/home/phillip/EECE5554/LAB0/build/pubsub/install.log'
+[0.532s] Invoked command in '/home/phillip/EECE5554/LAB0/src/pubsub' returned '0': PYTHONPATH=/home/phillip/EECE5554/LAB0/build/pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phillip/EECE5554/LAB0/install/pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/phillip/EECE5554/LAB0/build/pubsub/build install --record /home/phillip/EECE5554/LAB0/build/pubsub/install.log --single-version-externally-managed install_data

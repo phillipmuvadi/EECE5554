@@ -6,11 +6,17 @@ from std_msgs.msg import String
 class ModifiedListener(Node):
     def __init__(self):
         super().__init__('modified_listener')
-        self.sub = self.create_subscription(String, 'chatter', self.callback, 10)
+        self.sub = self.create_subscription(
+            String,
+            'chatter',
+            self.callback,
+            10
+        )
 
     def callback(self, msg: String):
-        # Show received message and its length (a simple "modification" in output)
-        self.get_logger().info(f'I heard: "{msg.data}" (len={len(msg.data)})')
+        s = msg.data
+        s_mod = s + "!"   # modify the string itself (rubric requirement)
+        self.get_logger().info(f'I heard "{s_mod}"')
 
 def main():
     rclpy.init()
@@ -21,3 +27,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

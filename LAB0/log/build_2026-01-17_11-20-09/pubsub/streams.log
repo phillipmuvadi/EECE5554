@@ -1,0 +1,23 @@
+[0.305s] Invoking command in '/home/phillip/EECE5554/LAB0/src/pubsub': PYTHONPATH=/home/phillip/EECE5554/LAB0/build/pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phillip/EECE5554/LAB0/install/pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/phillip/EECE5554/LAB0/build/pubsub/build install --record /home/phillip/EECE5554/LAB0/build/pubsub/install.log --single-version-externally-managed install_data
+[0.425s] running egg_info
+[0.425s] writing ../../build/pubsub/pubsub.egg-info/PKG-INFO
+[0.425s] writing dependency_links to ../../build/pubsub/pubsub.egg-info/dependency_links.txt
+[0.425s] writing entry points to ../../build/pubsub/pubsub.egg-info/entry_points.txt
+[0.425s] writing requirements to ../../build/pubsub/pubsub.egg-info/requires.txt
+[0.425s] writing top-level names to ../../build/pubsub/pubsub.egg-info/top_level.txt
+[0.426s] reading manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[0.427s] writing manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[0.427s] running build
+[0.427s] running build_py
+[0.427s] copying pubsub/listener.py -> /home/phillip/EECE5554/LAB0/build/pubsub/build/lib/pubsub
+[0.427s] running install
+[0.427s] running install_lib
+[0.427s] copying /home/phillip/EECE5554/LAB0/build/pubsub/build/lib/pubsub/listener.py -> /home/phillip/EECE5554/LAB0/install/pubsub/lib/python3.10/site-packages/pubsub
+[0.428s] byte-compiling /home/phillip/EECE5554/LAB0/install/pubsub/lib/python3.10/site-packages/pubsub/listener.py to listener.cpython-310.pyc
+[0.428s] running install_data
+[0.428s] running install_egg_info
+[0.429s] removing '/home/phillip/EECE5554/LAB0/install/pubsub/lib/python3.10/site-packages/pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[0.429s] Copying ../../build/pubsub/pubsub.egg-info to /home/phillip/EECE5554/LAB0/install/pubsub/lib/python3.10/site-packages/pubsub-0.0.0-py3.10.egg-info
+[0.430s] running install_scripts
+[0.442s] writing list of installed files to '/home/phillip/EECE5554/LAB0/build/pubsub/install.log'
+[0.456s] Invoked command in '/home/phillip/EECE5554/LAB0/src/pubsub' returned '0': PYTHONPATH=/home/phillip/EECE5554/LAB0/build/pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phillip/EECE5554/LAB0/install/pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/phillip/EECE5554/LAB0/build/pubsub/build install --record /home/phillip/EECE5554/LAB0/build/pubsub/install.log --single-version-externally-managed install_data
